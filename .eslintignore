@@ -1,0 +1,14 @@
+# Non-source directories
+**/build/*
+**/dist/*
+**/doc/*
+
+# Dependency directory
+**/node_modules/*
+
+# yarn pnp
+.pnp.*
+.yarn/
+
+# Legacy
+**/legacy/*

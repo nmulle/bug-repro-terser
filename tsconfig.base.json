@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // Process & infer types from .js files.
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export.
+    "checkJs": true, // Report errors in JavaScript files.
+    "esModuleInterop": true, // Import non-ES modules as default imports.
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+    "isolatedModules": true, // Disallow features that require cross-file information for emit.
+    "lib": ["esnext"], // Specify library files to be included in the compilation.
+    "module": "esnext", // Specify module code generation.
+    "moduleResolution": "node", // Search under node_modules for non-relative imports.
+    "noFallthroughCasesInSwitch": true, // Ensures that any non-empty case inside a switch statement includes either break or return.
+    "noImplicitOverride": true, // Ensure that functions which override include the keyword override.
+    "noImplicitReturns": true, // Check all code paths in a function to ensure they return a value.
+    "noPropertyAccessFromIndexSignature": true, // Do not allow dot syntax to access fields which are not defined.
+    "noUnusedLocals": true, // Report errors on unused local variables.
+    "noUnusedParameters": true, // Report errors on unused parameters in functions.
+    "skipLibCheck": true, // Skip type checking of declaration files.
+    "strict": true, // Enable the strictest settings like strictNullChecks & noImplicitAny.
+    "target": "esnext", // Target latest version of ECMAScript.
+
+    "baseUrl": ".",
+    "paths": {
+      "@repro/*": [
+        "main-package",
+        "dependency-package"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"eslint.lintTask.enable": false,
+	"eslint.packageManager": "yarn",
+	"editor.codeActionsOnSave": {
+
+	},
+	"eslint.codeActionsOnSave.mode": "problems",
+	"eslint.debug": false,
+	"eslint.format.enable": false,
+	"eslint.workingDirectories": [
+		"./"
+	],
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"eslint.nodePath": "./.yarn/sdks",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsdk": "./.yarn/sdks/typescript/lib",
+	"js/ts.implicitProjectConfig.strictFunctionTypes": false,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
+}
